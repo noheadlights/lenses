@@ -1,0 +1,44 @@
+<h1>Listing lenses</h1>
+
+<% form_tag lenses_path, :method => 'get' do %>
+    <p>
+      <%= text_field_tag :search, params[:search] %>
+      <%= submit_tag "Search", :name => nil %>
+    </p>
+<% end %>
+
+<table>
+  <tr>
+    <th>Brand</th>
+    <th>Max aperture</th>
+    <th>Min aperture</th>
+    <th>Max focal length</th>
+    <th>Min focal length</th>
+    <th>Name</th>
+    <th>Notes</th>
+    <th>Lense type</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @lenses.each do |lense| %>
+  <tr>
+    <td><%= lense.brand.name %></td>
+    <td><%= lense.max_aperture %></td>
+    <td><%= lense.min_aperture %></td>
+    <td><%= lense.max_focal_length %></td>
+    <td><%= lense.min_focal_length %></td>
+    <td><%= lense.name %></td>
+    <td><%= lense.notes %></td>
+    <td><%= lense.lense_type_id %></td>
+    <td><%= link_to 'Show', lense %></td>
+    <td><%= link_to 'Edit', edit_lense_path(lense) %></td>
+    <td><%= link_to 'Destroy', lense, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Lense', new_lense_path %>

@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Brand:</b>
+  <%= @lense.brand_id %>
+</p>
+
+<p>
+  <b>Max aperture:</b>
+  <%= @lense.max_aperture %>
+</p>
+
+<p>
+  <b>Min aperture:</b>
+  <%= @lense.min_aperture %>
+</p>
+
+<p>
+  <b>Max focal length:</b>
+  <%= @lense.max_focal_length %>
+</p>
+
+<p>
+  <b>Min focal length:</b>
+  <%= @lense.min_focal_length %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @lense.name %>
+</p>
+
+<p>
+  <b>Notes:</b>
+  <%= @lense.notes %>
+</p>
+
+<p>
+  <b>Lense type:</b>
+  <%= @lense.lense_type_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_lense_path(@lense) %> |
+<%= link_to 'Back', lenses_path %>
