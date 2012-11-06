@@ -1,9 +1,9 @@
 class Lense < ActiveRecord::Base
-  attr_accessible :brand_id, :lense_type_id, :max_aperture, :max_focal_length, :min_aperture, :min_focal_length, :name, :notes
+  attr_accessible :brand, :lense_type, :max_aperture, :max_focal_length, :min_aperture, :min_focal_length, :name, :notes
 
 
-  has_one :lense_type
-  has_one :brand
+  belongs_to :lense_type
+  belongs_to :brand
 
   validate :max_aperture_larger_min_aperture
   validate :max_focal_length_larger_min_focal_length

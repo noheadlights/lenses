@@ -25,7 +25,6 @@ class LensesController < ApplicationController
   # GET /lenses/new.json
   def new
     @lense = Lense.new
-
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @lense }

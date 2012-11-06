@@ -1,6 +1,6 @@
 class DataGeneration < ActiveRecord::Migration
   def up
-    %w("Telezoom" "Wideangle" "Ultrawide" "Normal" 'Wide- to Telezoom').each do |l|
+    %w(Telezoom Wideangle Ultrawide Normal Wide-to-Telezoom).each do |l|
       lense_type = LenseType.new()
       lense_type.type=l
       lense_type.save

@@ -1,4 +1,4 @@
-<%= form_for(@lense) do |f| %>
+<%= simple_form_for(@lense) do |f| %>
   <% if @lense.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@lense.errors.count, "error") %> prohibited this lense from being saved:</h2>
@@ -11,39 +11,22 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :brand_id %><br />
-    <%= f.number_field :brand_id %>
-  </div>
-  <div class="field">
+
+    <%= f.association :brand %>
     <%= f.label :max_aperture %><br />
     <%= f.text_field :max_aperture %>
-  </div>
-  <div class="field">
     <%= f.label :min_aperture %><br />
     <%= f.text_field :min_aperture %>
-  </div>
-  <div class="field">
     <%= f.label :max_focal_length %><br />
     <%= f.number_field :max_focal_length %>
-  </div>
-  <div class="field">
     <%= f.label :min_focal_length %><br />
     <%= f.number_field :min_focal_length %>
-  </div>
-  <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
-  </div>
-  <div class="field">
     <%= f.label :notes %><br />
     <%= f.text_field :notes %>
-  </div>
-  <div class="field">
-    <%= f.label :lense_type_id %><br />
-    <%= f.text_field :lense_type_id %>
-  </div>
-  <div class="actions">
+    <%= f.label :lense_type %><br />
+    <%= f.association :lense_type,  :label_method => :lense_type, :value_method => :id, :include_blank => false %>
     <%= f.submit %>
   </div>
 <% end %>
