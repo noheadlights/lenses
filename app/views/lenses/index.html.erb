@@ -31,7 +31,7 @@
     <td><%= lense.min_focal_length %></td>
     <td><%= lense.name %></td>
     <td><%= lense.notes %></td>
-    <td><%= lense.lense_type_id %></td>
+    <td><%= lense.lense_type.lense_type %></td>
     <td><%= link_to 'Show', lense %></td>
     <td><%= link_to 'Edit', edit_lense_path(lense) %></td>
     <td><%= link_to 'Destroy', lense, method: :delete, data: { confirm: 'Are you sure?' } %></td>

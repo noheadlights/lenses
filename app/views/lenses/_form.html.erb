@@ -1,4 +1,4 @@
-<%= simple_form_for(@lense) do |f| %>
+<%= simple_form_for @lense, :html => { :class => 'form-horizontal' } do |f| %>
   <% if @lense.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@lense.errors.count, "error") %> prohibited this lense from being saved:</h2>
@@ -12,21 +12,14 @@
   <% end %>
 
 
-    <%= f.association :brand %>
-    <%= f.label :max_aperture %><br />
-    <%= f.text_field :max_aperture %>
-    <%= f.label :min_aperture %><br />
-    <%= f.text_field :min_aperture %>
-    <%= f.label :max_focal_length %><br />
-    <%= f.number_field :max_focal_length %>
-    <%= f.label :min_focal_length %><br />
-    <%= f.number_field :min_focal_length %>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-    <%= f.label :notes %><br />
-    <%= f.text_field :notes %>
-    <%= f.label :lense_type %><br />
+    <%= f.association :brand, label: "Brand" %>
     <%= f.association :lense_type,  :label_method => :lense_type, :value_method => :id, :include_blank => false %>
+    <%= f.input :max_aperture, as: :string %>
+    <%= f.input :min_aperture, label: "Minimum Aperture", as: :string %>
+    <%= f.input :max_focal_length, label: "Maximum Focal Length", as: :string %>
+    <%= f.input :min_focal_length, label: "Minimum Focal Length", as: :string %>
+    <%= f.input :name, label: "Lens Name" %>
+    <%= f.input :notes, label: "Notes" , as: :text%>
     <%= f.submit %>
   </div>
 <% end %>
