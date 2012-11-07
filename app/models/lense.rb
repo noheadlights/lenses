@@ -17,17 +17,17 @@ class Lense < ActiveRecord::Base
   validates :min_focal_length, presence: true, numericality: {greater_than: 0}
 
   def max_aperture_larger_min_aperture
-    errors.add(:max_aperture, "max_aperture must be larger than min_aperture.") if self.max_aperture && self.min_aperture && self.max_aperture < self.min_aperture
+    errors.add(:max_aperture, "max_aperture must be equal or larger than min_aperture.") if self.max_aperture && self.min_aperture && self.max_aperture < self.min_aperture
   end
   def max_focal_length_larger_min_focal_length
-    errors.add(:max_focal_length, "max_aperture must be larger than min_aperture.") if self.max_focal_length && self.min_focal_length && self.max_focal_length < self.min_focal_length
+    errors.add(:max_focal_length, "max_focal_length must be equal or larger than min_focal_length.") if self.max_focal_length && self.min_focal_length && self.max_focal_length < self.min_focal_length
   end
 
 
 
   def self.search(search)
     if search
-      find(:all, :conditions => ['lens_types.type LIKE ?', "%#{search}%"], :joins => [:lens_type])
+      find(:all, :conditions => ['lense_types.lense_type LIKE ?', "%#{LenseType.find(search).lense_type}%"], :joins => [:lense_type])
     else
       find(:all)
     end

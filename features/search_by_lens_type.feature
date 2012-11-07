@@ -5,14 +5,15 @@ Feature: search lenses by type
 
 Scenario Outline: Search lens Type
   Given I am on the homepage
-  When I select a "<lenstype>"
+  When I select a "<lensetype>"
   Then I should see "<lens>"
+  And I should not see "<no_lens>"
 
 Scenarios:
-  | lenstype  | lens       |
-  | Telezoom  | EFS 55-250 |
-  | Ultrawide | EF 10-20   |
-  | Wideangle | EFS 18-55  |
-  | Normal    | EF 50 1.8  |
+  | lensetype  | lens       | no_lens |
+  | Telezoom  | EFS 55-250 |  EF 50 1.8 |
+  | Ultrawide | EF 10-20   | EFS 55-250 |
+  | Wideangle | EFS 18-55  | EFS 55-250 |
+  | Normal    | EF 50 1.8  | EFS 55-250 |
 
 

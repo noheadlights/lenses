@@ -1,4 +1,6 @@
 Lenses::Application.routes.draw do
+  devise_for :users
+
   resources :lenses
 
   # The priority is based upon order of creation:

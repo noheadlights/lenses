@@ -1,8 +1,9 @@
 <h1>Listing lenses</h1>
 
-<% form_tag lenses_path, :method => 'get' do %>
+<%= form_tag lenses_path, :method => 'get' do %>
     <p>
-      <%= text_field_tag :search, params[:search] %>
+      <%= select_tag "lenstype_selection" ,  options_from_collection_for_select(@lense_types, "id", "lense_type", selected= params[:lenstype_selection]) %>
+
       <%= submit_tag "Search", :name => nil %>
     </p>
 <% end %>
@@ -33,12 +34,15 @@
     <td><%= lense.notes %></td>
     <td><%= lense.lense_type.lense_type %></td>
     <td><%= link_to 'Show', lense %></td>
-    <td><%= link_to 'Edit', edit_lense_path(lense) %></td>
-    <td><%= link_to 'Destroy', lense, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Edit', edit_lense_path(lense) if user_signed_in?%></td>
+    <td><%= link_to 'Destroy', lense, method: :delete, data: { confirm: 'Are you sure?' } if user_signed_in? %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Lense', new_lense_path %>
+<%= link_to 'New Lense', new_lense_path if user_signed_in? %>
+
+
+<%= debug(params) %>

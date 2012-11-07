@@ -1,9 +1,10 @@
 class LensesController < ApplicationController
+  before_filter :authenticate_user!, except: [:index, :show]
   # GET /lenses
   # GET /lenses.json
   def index
-    @lenses = Lense.search(params[:search])
-
+    @lenses = Lense.search(params[:lenstype_selection])
+    @lense_types = LenseType.all
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @lenses }

@@ -7,10 +7,13 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 gem "simple_form"
+gem "devise"
 
 group :development,:test do
+
   gem "rspec-rails"
   gem "factory_girl_rails"
+  gem "factory_girl"
   gem "guard-rspec"
   gem "capybara"
   gem 'bootstrap-sass'
