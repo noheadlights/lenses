@@ -2,8 +2,8 @@
 
 <%= form_tag lenses_path, :method => 'get' do %>
     <p>
-      <%= select_tag "lenstype_selection" ,  options_from_collection_for_select(@lense_types, "id", "lense_type", selected= params[:lenstype_selection]) %>
-
+      <%= select_tag "lense_type_selection" ,  options_from_collection_for_select(@lense_types, "id", "lense_type", selected= params[:lense_type_selection]) %>
+      <%= text_field_tag "aperture_to" , value = params[:aperture_to]%>
       <%= submit_tag "Search", :name => nil %>
     </p>
 <% end %>

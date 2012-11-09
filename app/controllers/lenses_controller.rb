@@ -3,7 +3,12 @@ class LensesController < ApplicationController
   # GET /lenses
   # GET /lenses.json
   def index
-    @lenses = Lense.search(params[:lenstype_selection])
+
+    if params.empty?
+      @lenses = Lense.all
+    else
+      @lenses = Lense.search(params)
+    end
     @lense_types = LenseType.all
     respond_to do |format|
       format.html # index.html.erb
@@ -44,7 +49,7 @@ class LensesController < ApplicationController
 
     respond_to do |format|
       if @lense.save
-        format.html { redirect_to @lense, notice: 'Lense was successfully created.' }
+        format.html { redirect_to root_path, notice: 'Lense was successfully created.' }
         format.json { render json: @lense, status: :created, location: @lense }
       else
         format.html { render action: "new" }

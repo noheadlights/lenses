@@ -21,10 +21,13 @@ When /^I am not logged in$/ do
   page.should have_content "Login"
   page.should_not have_content "Logout"
 end
+
 When /^I enter login and password$/ do
   fill_in 'Email', with: 'admin@lenses.com'
   fill_in 'Password', with: 'secret'
 end
+
 When /^I click on "([^"]*)"$/ do |arg|
-  click_link "Sign in"
+  save_and_open_page
+  click_on arg
 end

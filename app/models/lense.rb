@@ -1,5 +1,5 @@
 class Lense < ActiveRecord::Base
-  attr_accessible :brand_id, :lense_type_id, :max_aperture, :max_focal_length, :min_aperture, :min_focal_length, :name, :notes
+  attr_accessible :brand_id, :lense_type_id, :max_aperture, :max_focal_length, :min_aperture, :min_focal_length, :name, :notes, :lense_type, :brand
 
 
   belongs_to :lense_type
@@ -19,18 +19,17 @@ class Lense < ActiveRecord::Base
   def max_aperture_larger_min_aperture
     errors.add(:max_aperture, "max_aperture must be equal or larger than min_aperture.") if self.max_aperture && self.min_aperture && self.max_aperture < self.min_aperture
   end
+
   def max_focal_length_larger_min_focal_length
     errors.add(:max_focal_length, "max_focal_length must be equal or larger than min_focal_length.") if self.max_focal_length && self.min_focal_length && self.max_focal_length < self.min_focal_length
   end
 
 
+  def self.search(search_params)
+    lt = LenseType.find(search_params[:lense_type_selection]).lense_type
+    at = search_params[:aperture_to] || ""
 
-  def self.search(search)
-    if search
-      find(:all, :conditions => ['lense_types.lense_type LIKE ?', "%#{LenseType.find(search).lense_type}%"], :joins => [:lense_type])
-    else
-      find(:all)
-    end
+    find(:all, conditions: ['lense_types.lense_type LIKE ? and min_aperture like ?', "%#{lt}%", "%#{at}%"], :joins => [:lense_type])
   end
 
 

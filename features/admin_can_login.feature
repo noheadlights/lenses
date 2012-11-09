@@ -8,7 +8,8 @@ Feature: Entering lens data
     And I am not logged in
     And I click on "Admin Login"
     And I enter login and password
+    And I click on "Sign in"
     Then I should see "Hello Adminuser"
-    Then I should see "new Lense"
+    Then I should see "New Lense"
 
 
