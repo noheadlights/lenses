@@ -4,10 +4,10 @@ class LensesController < ApplicationController
   # GET /lenses.json
   def index
 
-    if params.empty?
-      @lenses = Lense.all
-    else
+    if params[:lense_type_selection].present?
       @lenses = Lense.search(params)
+    else
+      @lenses = Lense.all
     end
     @lense_types = LenseType.all
     respond_to do |format|

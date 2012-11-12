@@ -2,58 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85224679-8df4-4ee3-9397-777a1987bd04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/duplicate_lenses_should_not_be_allowed.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/lense_data_steps.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/lense_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/lense_type_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/search_in_between_focal_lengths.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/lenses_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/lenses_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/brand.rb" afterPath="$PROJECT_DIR$/app/models/brand.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/lense.rb" afterPath="$PROJECT_DIR$/app/models/lense.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/lenses/index.html.erb" afterPath="$PROJECT_DIR$/app/views/lenses/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/admin_can_login.feature" afterPath="$PROJECT_DIR$/features/admin_can_login.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/enter_lens_data.feature" afterPath="$PROJECT_DIR$/features/enter_lens_data.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/search_with details.feature" afterPath="$PROJECT_DIR$/features/search_with details.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/user_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/user_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/factories.rb" afterPath="$PROJECT_DIR$/features/support/factories.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/lense_spec.rb" afterPath="$PROJECT_DIR$/spec/models/lense_spec.rb" />
     </list>
     <ignored path="lenses.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html.erb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352477667740" ignored="false" />
-    <file path="/lenses_controller.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352477407088" ignored="false" />
-    <file path="/lense_spec.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352475726571" ignored="false" />
-    <file path="/lense.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352475423807" ignored="false" />
-    <file path="/lense_type_spec.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352474025687" ignored="false" />
-    <file path="/lense_type.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352473571680" ignored="false" />
-    <file path="/search_with details.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352464635471" ignored="false" />
-    <file path="/Dummy.txt" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352463370479" ignored="false" />
-    <file path="/simple_form.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352220587730" ignored="false" />
-    <file path="/20121106164409_rename_column_type_to_lense_type.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352220318709" ignored="false" />
-    <file path="/.gitignore" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352219761465" ignored="false" />
-    <file path="/20121106162755_data_generation.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352219597900" ignored="false" />
-    <file path="/routes.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352218580415" ignored="false" />
-    <file path="/_form.html.erb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352224304001" ignored="false" />
-    <file path="/env.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352299971710" ignored="false" />
-    <file path="/search_by_lens_type.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352303663235" ignored="false" />
-    <file path="/Gemfile" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352303988887" ignored="false" />
-    <file path="/development.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352305173938" ignored="false" />
-    <file path="/application.html.erb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352305828231" ignored="false" />
-    <file path="/normal_users_cant_edit_lenses.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352307356494" ignored="false" />
-    <file path="/admin_can_login.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352379448588" ignored="false" />
-    <file path="/hooks.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352386027731" ignored="false" />
-    <file path="/brand.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352389412052" ignored="false" />
-    <file path="/lense_data_steps.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352389671423" ignored="false" />
-    <file path="/factories.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352393762337" ignored="false" />
-    <file path="/user_steps.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352452691234" ignored="false" />
-    <file path="/enter_lens_data.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352453762053" ignored="false" />
+    <file path="/lense_spec.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352739449045" ignored="false" />
+    <file path="/lense.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352738894377" ignored="false" />
+    <file path="/index.html.erb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352730517650" ignored="false" />
+    <file path="/search_in_between_focal_lengths.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352725077427" ignored="false" />
+    <file path="/connection_pool.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352723719285" ignored="false" />
+    <file path="/lenses_controller.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352723521221" ignored="false" />
+    <file path="/fragment.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352723274916" ignored="false" />
+    <file path="/Dummy.txt" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352721138499" ignored="false" />
     <file path="/seeds.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352456082222" ignored="false" />
+    <file path="/enter_lens_data.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352453762053" ignored="false" />
+    <file path="/user_steps.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352452691234" ignored="false" />
+    <file path="/factories.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352393762337" ignored="false" />
+    <file path="/lense_data_steps.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352389671423" ignored="false" />
+    <file path="/brand.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352389412052" ignored="false" />
+    <file path="/hooks.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352386027731" ignored="false" />
+    <file path="/admin_can_login.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352379448588" ignored="false" />
+    <file path="/normal_users_cant_edit_lenses.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352307356494" ignored="false" />
+    <file path="/application.html.erb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352305828231" ignored="false" />
+    <file path="/development.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352305173938" ignored="false" />
+    <file path="/Gemfile" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352303988887" ignored="false" />
+    <file path="/search_by_lens_type.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352303663235" ignored="false" />
+    <file path="/env.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352299971710" ignored="false" />
+    <file path="/_form.html.erb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352224304001" ignored="false" />
+    <file path="/routes.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352218580415" ignored="false" />
+    <file path="/20121106162755_data_generation.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352219597900" ignored="false" />
+    <file path="/.gitignore" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352219761465" ignored="false" />
+    <file path="/20121106164409_rename_column_type_to_lense_type.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352220318709" ignored="false" />
+    <file path="/simple_form.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352220587730" ignored="false" />
+    <file path="/search_with details.feature" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352464635471" ignored="false" />
+    <file path="/lense_type.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352473571680" ignored="false" />
+    <file path="/lense_type_spec.rb" changelist="85224679-8df4-4ee3-9397-777a1987bd04" time="1352474025687" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +62,14 @@
     <sortChildren value="false" />
   </component>
   <component name="DockManager">
-    <window id="2">
+    <window id="1">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+            <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/app/views/lenses/index.html.erb">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="23" column="49" selection-start="934" selection-end="934" vertical-scroll-proportion="0.67019403">
+                  <state line="18" column="29" selection-start="690" selection-end="690" vertical-scroll-proportion="0.51602024">
                     <folding />
                   </state>
                 </provider>
@@ -90,14 +79,14 @@
         </state>
       </content>
     </window>
-    <window id="1">
+    <window id="2">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/app/views/lenses/index.html.erb">
+            <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/db/seeds.rb">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="5" column="46" selection-start="288" selection-end="288" vertical-scroll-proportion="0.1534296">
+                  <state line="23" column="49" selection-start="934" selection-end="934" vertical-scroll-proportion="0.5064767">
                     <folding />
                   </state>
                 </provider>
@@ -111,82 +100,55 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="lenses_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/lenses_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="35" selection-start="233" selection-end="239" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="lense.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/lense.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="31" selection-start="1255" selection-end="1268" vertical-scroll-proportion="0.0">
+            <state line="34" column="0" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lense_type.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/lense_type.rb">
+      <file leaf-file-name="search_with details.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/search_with details.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="317" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lense_type_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/lense_type_spec.rb">
+      <file leaf-file-name="search_in_between_focal_lengths.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/search_in_between_focal_lengths.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="39" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+            <state line="13" column="37" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lense_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="lense_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/lense_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="43" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+            <state line="35" column="39" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.36717427">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <file leaf-file-name="search_by_lens_type.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/search_by_lens_type.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example_group.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rspec-core-2.11.1/lib/rspec/core/example_group.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="373" column="0" selection-start="13591" selection-end="13591" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environment.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lenses_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/lenses_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="26" selection-start="285" selection-end="285" vertical-scroll-proportion="0.57186544">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,11 +172,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/brand.rb" />
-        <option value="$PROJECT_DIR$/features/support/factories.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/lense_data_steps.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/user_steps.rb" />
         <option value="$PROJECT_DIR$/features/enter_lens_data.feature" />
         <option value="$PROJECT_DIR$/features/search_with details.feature" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
@@ -222,10 +181,13 @@
         <option value="$PROJECT_DIR$/spec/models/lense_type_spec.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/spec/models/lense_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/lense.rb" />
+        <option value="C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb" />
         <option value="$PROJECT_DIR$/app/controllers/lenses_controller.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/user_steps.rb" />
+        <option value="$PROJECT_DIR$/features/search_in_between_focal_lengths.feature" />
         <option value="$PROJECT_DIR$/app/views/lenses/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/lense.rb" />
+        <option value="$PROJECT_DIR$/spec/models/lense_spec.rb" />
       </list>
     </option>
   </component>
@@ -268,6 +230,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,7 +291,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,42 +310,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lenses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lenses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lenses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lenses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -590,7 +521,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView">
         <subPane>
           <PATH>
@@ -664,9 +594,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -679,34 +609,31 @@
     </key>
   </component>
   <component name="RunManager" selected="RSpec.lense_spec">
-    <configuration default="false" name="enter_lens_data" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+    <configuration default="false" name="lense_type_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="lenses" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs>
-        <env name="ANSICON" value="" />
+        <env name="RAILS_ENV" value="test" />
         <env name="JRUBY_OPTS" value="-X+O" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/enter_lens_data.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/models/lense_type_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -743,7 +670,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Lense" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="Lense can search between two focal lengths" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="lenses" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -761,7 +688,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/models/lense_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Lense" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Lense can search between two focal lengths" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -772,31 +699,34 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="lense_type_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+    <configuration default="false" name="search_in_between_focal_lengths" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="lenses" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs>
-        <env name="RAILS_ENV" value="test" />
+        <env name="ANSICON" value="" />
         <env name="JRUBY_OPTS" value="-X+O" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/models/lense_type_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/search_in_between_focal_lengths.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -1044,7 +974,9 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -1053,19 +985,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: lenses" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: lenses" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.enter_lens_data" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.lense_type_spec" />
       <item index="5" class="java.lang.String" itemvalue="Cucumber.search_with details" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.Lense" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.lense_type_spec" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.Lense can search between two focal lengths" />
+      <item index="7" class="java.lang.String" itemvalue="Cucumber.search_in_between_focal_lengths" />
       <item index="8" class="java.lang.String" itemvalue="RSpec.lense_spec" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="RSpec.lense_spec" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.lense_type_spec" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.lense_type_spec" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.lense_type_spec" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.lense_type_spec" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.lense_spec" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.lense_spec" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.search_in_between_focal_lengths" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Lense can search between two focal lengths" />
       </list>
     </recent_temporary>
   </component>
@@ -1103,18 +1035,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934782" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13607258" sideWeight="0.38369566" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13607258" sideWeight="0.67065215" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2113127" sideWeight="0.38369566" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21344717" sideWeight="0.67065215" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.56189966" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.61630434" sideWeight="0.18249734" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.61630434" sideWeight="0.8137673" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934782" sideWeight="0.50053364" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5902174" sideWeight="0.78175026" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1177,117 +1109,119 @@
     <MESSAGE value="devise added" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/enter_lens_data.feature">
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8/lib/active_record/query_cache.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
+        <state line="70" column="0" selection-start="1999" selection-end="1999" vertical-scroll-proportion="0.6768061">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="0" selection-start="7380" selection-end="7380" vertical-scroll-proportion="0.6121673">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.3196881">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.6768061">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/core_ext/object/blank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.31939164">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8/lib/active_support/hash_with_indifferent_access.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="834" selection-end="834" vertical-scroll-proportion="0.31939164">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_controller/metal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="0" selection-start="4448" selection-end="4448" vertical-scroll-proportion="0.33269963">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/user_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="38" selection-start="671" selection-end="671" vertical-scroll-proportion="0.7926045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/search_by_lens_type.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/search_with details.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="317" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+    <entry file="file://$PROJECT_DIR$/features/search_in_between_focal_lengths.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="34" selection-start="24" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/lense_type.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rspec-core-2.11.1/lib/rspec/core/example_group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="373" column="0" selection-start="13591" selection-end="13591" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/lense_type_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rspec-core-2.11.1/lib/rspec/core/runner.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="49" selection-start="934" selection-end="934" vertical-scroll-proportion="0.67019403">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/lense_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="43" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/lense.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="1255" selection-end="1268" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/lenses/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="288" selection-end="288" vertical-scroll-proportion="0.1534296">
+        <state line="13" column="37" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/lenses_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="285" selection-end="285" vertical-scroll-proportion="0.57186544">
+        <state line="7" column="35" selection-start="233" selection-end="239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/lenses/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="690" selection-end="690" vertical-scroll-proportion="0.51602024">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="49" selection-start="934" selection-end="934" vertical-scroll-proportion="0.5064767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/lense.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/lense_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="39" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.36717427">
           <folding />
         </state>
       </provider>

@@ -4,6 +4,8 @@
     <p>
       <%= select_tag "lense_type_selection" ,  options_from_collection_for_select(@lense_types, "id", "lense_type", selected= params[:lense_type_selection]) %>
       <%= text_field_tag "aperture_to" , value = params[:aperture_to]%>
+      <%= text_field_tag "min_focal_length", value = params[:min_focal_length] %>
+      <%= text_field_tag "max_focal_length", value = params[:max_focal_length] %>
       <%= submit_tag "Search", :name => nil %>
     </p>
 <% end %>

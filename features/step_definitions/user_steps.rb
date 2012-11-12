@@ -28,6 +28,5 @@ When /^I enter login and password$/ do
 end
 
 When /^I click on "([^"]*)"$/ do |arg|
-  save_and_open_page
   click_on arg
 end
