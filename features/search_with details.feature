@@ -5,7 +5,6 @@ Feature: detailed lens search
 
 Scenario:
   When I am on the homepage
-  And I fill in "aperture_to" with "2.8"
-  And I click on "Search"
+  And I fill in "Search" with "2.8"
   Then I should see "EF 50 1.8"
   And I should not see "EFS 18-55"
