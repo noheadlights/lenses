@@ -25,19 +25,19 @@ class Lense < ActiveRecord::Base
   end
 
 
-  def self.search(search_params)
-    lt = LenseType.find(search_params[:lense_type_selection]).lense_type
-    at = search_params[:aperture_to].blank? ? 36 : search_params[:aperture_to]
-    min_fl = search_params[:min_focal_length].blank? ? 0 : search_params[:min_focal_length]
-    max_fl = search_params[:max_focal_length].blank? ? 2000 : search_params[:max_focal_length]
-
-    find(:all, conditions: ['lense_types.lense_type LIKE ? and max_focal_length <= ? and min_focal_length >= ? and min_aperture <= ? ',
-                            "%#{lt}%",
-                            "#{max_fl}",
-                            "#{min_fl}",
-                            "#{at}"],
-         :joins => [:lense_type])
-  end
+  #def self.search(search_params)
+  #  lt = LenseType.find(search_params[:lense_type_selection]).lense_type
+  #  at = search_params[:aperture_to].blank? ? 36 : search_params[:aperture_to]
+  #  min_fl = search_params[:min_focal_length].blank? ? 0 : search_params[:min_focal_length]
+  #  max_fl = search_params[:max_focal_length].blank? ? 2000 : search_params[:max_focal_length]
+  #
+  #  find(:all, conditions: ['lense_types.lense_type LIKE ? and max_focal_length <= ? and min_focal_length >= ? and min_aperture <= ? ',
+  #                          "%#{lt}%",
+  #                          "#{max_fl}",
+  #                          "#{min_fl}",
+  #                          "#{at}"],
+  #       :joins => [:lense_type])
+  #end
 
 
 end

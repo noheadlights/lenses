@@ -1,16 +1,17 @@
-<h1>Listing lenses wating for bootstrap</h1>
+<h1>Listing lenses waiting for bootstrap</h1>
 
-<%= form_tag lenses_path, :method => 'get' do %>
+<!--<%= form_tag lenses_path, :method => 'get' do %>
     <p>
-      <%= select_tag "lense_type_selection" ,  options_from_collection_for_select(@lense_types, "id", "lense_type", selected= params[:lense_type_selection]) %>
-      <%= text_field_tag "aperture_to" , value = params[:aperture_to]%>
+      <%= select_tag "lense_type_selection", options_from_collection_for_select(@lense_types, "id", "lense_type", selected= params[:lense_type_selection]) %>
+      <%= text_field_tag "aperture_to", value = params[:aperture_to] %>
       <%= text_field_tag "min_focal_length", value = params[:min_focal_length] %>
       <%= text_field_tag "max_focal_length", value = params[:max_focal_length] %>
       <%= submit_tag "Search", :name => nil %>
     </p>
-<% end %>
+<% end %> -->
 
-<table>
+<table id="lenses">
+  <thead>
   <tr>
     <th>Brand</th>
     <th>Max aperture</th>
@@ -24,27 +25,32 @@
     <th></th>
     <th></th>
   </tr>
+  </thead>
+  <tbody>
+  <% @lenses.each do |lense| %>
 
-<% @lenses.each do |lense| %>
-  <tr>
-    <td><%= lense.brand.name %></td>
-    <td><%= lense.max_aperture %></td>
-    <td><%= lense.min_aperture %></td>
-    <td><%= lense.max_focal_length %></td>
-    <td><%= lense.min_focal_length %></td>
-    <td><%= lense.name %></td>
-    <td><%= lense.notes %></td>
-    <td><%= lense.lense_type.lense_type %></td>
-    <td><%= link_to 'Show', lense %></td>
-    <td><%= link_to 'Edit', edit_lense_path(lense) if user_signed_in?%></td>
-    <td><%= link_to 'Destroy', lense, method: :delete, data: { confirm: 'Are you sure?' } if user_signed_in? %></td>
-  </tr>
-<% end %>
+      <tr onclick='document.location.href="<%= url_for(lense)%>"' style="cursor: pointer;">
+        <td><%= lense.brand.name %></td>
+        <td><%= lense.max_aperture %></td>
+        <td><%= lense.min_aperture %></td>
+        <td><%= lense.max_focal_length %></td>
+        <td><%= lense.min_focal_length %></td>
+        <td><%= lense.name %></td>
+        <td><%= lense.notes %></td>
+        <td><%= lense.lense_type.lense_type %></td>
+        <td><%= link_to 'Show', lense %></td>
+        <td><%= link_to 'Edit', edit_lense_path(lense) if user_signed_in? %></td>
+        <td><%= link_to 'Destroy', lense, method: :delete, data: {confirm: 'Are you sure?'} if user_signed_in? %></td>
+      </tr>
+  <% end %>
+  </tbody>
 </table>
 
-<br />
+<br/>
 
 <%= link_to 'New Lense', new_lense_path if user_signed_in? %>
+
+
 
 
 <%= debug(params) %>

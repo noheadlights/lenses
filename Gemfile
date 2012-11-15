@@ -8,7 +8,7 @@ gem 'rails', '3.2.8'
 gem 'sqlite3'
 gem "simple_form"
 gem "devise"
-
+gem "jquery-datatables-rails"
 group :development,:test do
 
   gem "rspec-rails"

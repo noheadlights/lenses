@@ -7,22 +7,50 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-    <div id="container">
-        <div id="user_nav">
-            <% if user_signed_in? %>
-              Hello Adminuser!
-                <%= link_to "Edit profile", edit_user_registration_path %>
-                <%= link_to "Logout", destroy_user_session_path, method: :delete %>
-            <% else %>
-                <%= link_to "Sign up", new_user_registration_path %>
-                <%= link_to "Admin Login", new_user_session_path %>
-            <% end %>
-        </div>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="pull-left container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">Lenses</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><%= link_to "Search  Lenses", '#' %></li>
+          <li><%= link_to "Browse Lenselist" %></li>
+          <li><%= link_to "Contact Us" %></li>
+          <li><%= link_to "Cart" %></li>
+        </ul>
+      </div>
     </div>
+  </div>
+</div>
+
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span9">
+          <%= yield %>
+        </div>
+        <div class="span3">
+          <table>
+          <% if user_signed_in? %>
+                <tr><td>Hello Adminuser!</td></tr>
+                <tr><td><%= link_to "Edit profile", edit_user_registration_path %></td></tr>
+                <tr><td><%= link_to "Logout", destroy_user_session_path, method: :delete %></td></tr>
+          <% else %>
+                <tr><td><%= link_to "Sign up", new_user_registration_path %></td></tr>
+                <tr><td><%= link_to "Admin Login", new_user_session_path %></td></tr>
+              <!--navigation does here-->
+          <% end %>
+          </table>
+        </div>
+      </div>
+    </div>
 
-<%= yield %>
 
 </body>
 </html>

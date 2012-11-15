@@ -1,0 +1,153 @@
+﻿Sigma 4.5mm f/2.8 EX DC HSM Circular Fisheye (prime)	4,50	4,50	f/2.8	$899.00
+Sigma 8-16mm f/4.5-5.6 DC HSM	8,00	16,00	f/4.5-5.6	$699.00
+Sigma 8mm f/3.5 EX DG Circular Fisheye (prime)	8,00	8,00	f/3.5	$899.00
+Canon EF 8-15mm USM Fisheye	8,00	15,00	f/4L	$1,337.79
+Sigma 10mm f/2.8 EX DC HSM Fisheye (prime)	10,00	10,00	f/2.8	$649.00
+Tamron SP 10-24mm f/3.5-4.5 Di II LD Aspherical [IF]	10,00	24,00	f/3.5-4.5	$499.00
+Tokina AT-X 10-17mm f/3.5-4.5 Fisheye	10,00	17,00	f/3.5-4.5	$669.00
+Canon EF-S 10-22mm USM	10,00	22,00	f/3.5-4.5	$769.95
+Sigma 10-20mm f/4-5.6 EX DC HSM	10,00	20,00	f/4-5.6	$479.00
+Sigma 10-20mm f/3.5 EX DC HSM	10,00	20,00	f/3.5	Too low to display
+Tokina AT-X PRO 11-16 f/2.8 II	11,00	16,00	f/2.8	$739.00
+Tokina AT-X 11-16mm f/2.8 DX	11,00	16,00	f/2.8	$699.00
+Sigma 12-24mm f/4.5-5.6 DG HSM II	12,00	24,00	f/4.5-5.6	Too low to display
+Tokina AT-X 12-24mm f/4 II	12,00	24,00	f/4	$599.00
+Sigma 12-24mm f/4.5-5.6 EX DG ASP HSM	12,00	24,00	f/4.5-5.6	Price Not Found
+Canon EF 14mm II USM (prime)	14,00	14,00	f/2.8L	$2,151.69
+Canon EF-S 15-85mm IS USM	15,00	85,00	f/3.5-5.6	$699.00
+Sigma 15mm f/2.8 EX DG Diagonal Fisheye (prime)	15,00	15,00	f/2.8	$609.00
+Canon EF 15mm Fisheye (prime)	15,00	15,00	f/2.8	$975.00<>/a
+Canon EF 16-35mm II USM	16,00	35,00	f/2.8L	$1,531.29
+Tokina AT-X 16-28mm f/2.8 FX	16,00	28,00	f/2.8	$849.00
+Tokina AT-X 16.5-135mm f/3.5-5.6 DX II	16,50	135,00	f/3.5-5.6	$599.99
+Canon EF-S 17-85mm IS USM	17,00	85,00	f/4-5.6	$599.00
+Tamron SP 17-50mm F/2.8 XR Di II LD Aspherical [IF]	17,00	50,00	f/2.8	$499.00
+Sigma 17-70mm f/2.8-4 DC MACRO OS HSM (C series)	17,00	70,00	f/2.8-4	New Lens, Price Not Available
+Tamron SP 17-50mm F/2.8 XR Di II VC LD Aspherical [IF]	17,00	50,00	f/2.8	$649.00
+Canon EF-S 17-55mm IS USM	17,00	55,00	f/2.8	$1,099.00
+Sigma 17-70mm f/2.8-4 DC Macro OS HSM	17,00	70,00	f/2.8-4	Too low to display
+Canon EF 17-40mm USM	17,00	40,00	f/4L	$779.00
+Sigma 17-50mm f/2.8 EX DC OS HSM	17,00	50,00	f/2.8	$669.00
+Canon EF 17-40mm USM	17,00	40,00	f/4L	$779.00
+Canon EF-S 18-135mm f/3.5-5.6 IS STM	18,00	135,00	f/3.5-5.6	
+Canon EF-S 18-135mm f/3.5-5.6 IS	18,00	135,00	f/3.5-5.6	$314.00
+Canon EF-S 18-55mm IS II	18,00	55,00	f/3.5-5.6	$113.56
+Sigma 18-200mm f/3.5-6.3 II DC OS HSM	18,00	200,00	f/3.5-6.3	$444.68
+Sigma 18-50mm f/2.8-4.5 DC OS HSM	18,00	50,00	f/2.8-4.5	$199.00
+Tamron 18-270mm F/3.5-6.3 Di II VC PZD, F/3.5-6.3 Di II PZD	18,00	270,00	f/3.5-6.3	$649.00
+Sigma 18-250mm f/3.5-6.3 DC OS HSM	18,00	250,00	f/3.5-6.3	$479.00
+Sigma 18-200mm f/3.5-6.3 DC	18,00	200,00	f/3.5-6.3	$249.00
+Sigma 18-125mm f/3.8-5.6 DC OS HSM	18,00	125,00	f/3.8-5.6	$339.00
+Canon EF-S 18-200mm f3.5-5.6 IS	18,00	200,00	f/3.5-5.6	$568.00
+Tamron 18-200mm F/3.5-6.3 XR Di II LD Aspherical [IF] MACRO	18,00	200,00	f/3.5-6.3	$299.00
+Sigma 18-200mm f/3.5-6.3 DC OS	18,00	200,00	f/3.5-6.3	$399.00
+Canon EF-S 18-55mm f3.5-5.6 IS	18,00	55,00	f/3.5-5.6	$117.49
+Canon EF 20mm f/2.8 USM (prime)	20,00	20,00	f/2.8	$499.00
+Sigma 20mm f/1.8 EX DG ASP RF	20,00	20,00	f/1.8	$629.00
+Canon EF 24-70mm f/2.8L USM	24,00	70,00	f/2.8L	$1,775.00
+Sigma 24mm f/1.8 EX DG ASP Macro	24,00	24,00	f/1.8	$549.00
+Canon EF 24-85mm f/3.5-4.5 USM	24,00	85,00	f/3.5-4.5	Price Not Found
+Canon EF 24mm f/1.4L II USM (prime)	24,00	24,00	f/1.4L	$1,629.00
+Tamron 24-70 f/2.8 Di VC USD	24,00	70,00	f/2.8	$1,299.00
+Canon 24-70 f/2.8L II USM	24,00	70,00	f/2.8	$2269
+Sigma 24-70mm f/2.8 IF EX DG HSM	24,00	70,00	f/2.8	Too low to display
+Canon EF 24-105mm f/4L IS USM	24,00	105,00	f/4L	$954.00
+Canon 24mm f/2.8 IS USM (prime)	24,00	24,00	f/2.8	$807.00
+Canon EF 24mm f/2.8 (prime)	24,00	24,00	f/2.8	$374.00
+Canon TS-E 24mm f/3.5L II Tilt-Shift (prime)	24,00	24,00	f/3.5L	$2,199.00
+Canon EF 28mm f/1.8 USM (prime)	28,00	28,00	f/1.8	$469.00
+Canon EF 28-135mm f/3.5-5.6 IS USM	28,00	135,00	f/3.5-5.6	$364.95
+Tamron 28-300mm F/3.5-6.3 XR Di LD Aspherical [IF] MACRO	28,00	300,00	f/3.5-6.3	$419.00
+Tamron 28-300mm F/3.5-6.3 XR Di VC LD Aspherical [IF] MACRO	28,00	300,00	f/3.5-6.3	$629.00
+Tamron SP 28-75mm F/2.8 XR Di LD Aspherical [IF] MACRO	28,00	75,00	f/2.8	$499.00
+Tamron 28-80mm F/3.5-5.6 Aspherical	28,00	80,00	f/3.5-5.6	$140.00
+Sigma 28mm f/1.8 EX DG ASP Macro (prime)	28,00	28,00	f/1.8	$449.00
+Canon 28mm f/2.8 IS USM (prime)	28,00	28,00	f/2.8	
+Canon EF 28-200mm f/3.5-5.6 USM	28,00	200,00	f/3.5-5.6	Price Not Found
+Canon EF 28-300mm f/3.5-5.6L IS USM	28,00	300,00	f/3.5-5.6L	$2,599.00
+Canon EF 28-105mm f/4-5.6 USM	28,00	105,00	f/4-5.6	$149.95
+Sigma 30mm f/1.4 EX DC HSM (prime)	30,00	30,00	f/1.4	$489.00
+Sigma 35mm f/1.4 DG HSM (A series)	35,00	35,00	f/1.4	New Lens, Price Not Available
+Canon EF 35mm f/1.4L USM	35,00	35,00	f/1.4L	$1,379.00
+Tokina AT-X 35mm f/2.8 PRO DX Macro (prime)	35,00	35,00	f/2.8	$308.99
+Canon EF 35mm f/2.0 (prime)	35,00	35,00	f/2.0	$319.00
+Canon EF 40mm f/2.8 STM pancake (prime)	40,00	40,00	f/2.8	$199.00
+Canon TS-E 45mm f/2.8 Tilt-Shift (prime)	45,00	45,00	f/2.8	$1,299.00
+Canon EF 50mm f/1.4 USM (prime)	50,00	50,00	f/1.4	$374.99
+Canon EF 50mm f1.2L USM (prime)	50,00	50,00	f/1.2L	$1,466.69
+Sigma 50mm f/2.8 EX DG Macro (prime)	50,00	50,00	f/2.8	$369.00
+Sigma 50-200mm f/4-5.6 DC OS HSM	50,00	200,00	f/4-5.6	$159.00
+Canon EF 50mm f/2.5 Macro	50,00	50,00	f/2.5	$279.00
+Sigma 50mm f/1.4 EX DG HSM (prime)	50,00	50,00	f/1.4	Too low to display
+Sigma 50-500mm f/4.5-6.3 APO DG OS HSM	50,00	500,00	f/4.5-6.3	$1,659.00
+Canon EF 50mm f/1.8 II (prime)	50,00	50,00	f/1.8	$117.95
+Canon EF 55-200mm f/4.5-5.6 USM II	55,00	200,00	f/4.5-5.6	$299.98
+Canon EF-S 55-250mm f4-5.6 IS	55,00	250,00	f/4-5.6	$249.00
+Tamron 55-200mm F/4-5.6 Di II LD MACRO	55,00	200,00	f/4-5.6	$199.00
+Canon EF-S 60mm f/2.8 USM Macro (prime)	60,00	60,00	f/2.8	$429.00
+Tamron SP 60mm F/2 Di II LD [IF] MACRO 1:1 (prime)	60,00	60,00	f/2	$524.00
+Canon MP-E 65mm f/2.8 1-5x Macro (prime)	65,00	65,00	f/2.8	$979.00
+Canon EF 70-200mm f/2.8L IS II USM	70,00	200,00	f/2.8L	$2,284.00
+Sigma 70-200mm f/2.8 EX DG OS HSM APO	70,00	200,00	f/2.8	Too low to display
+Sigma 70-300mm f/4-5.6DG Macro	70,00	300,00	f/4-5.6	$169.00
+Tamron SP 70-200mm f/2.8 Di VC USD	70,00	200,00	f/2.8	New Lens, Price Not Available
+Canon EF 70-300mm f/4-5.6 IS USM	70,00	300,00	f/4-5.6	$398.95
+Tamron 70-300mm F/4-5.6 Di LD MACRO	70,00	300,00	f/4-5.6	$199.00
+Canon EF 70-300mm f/4.5-5.6 DO IS USM	70,00	300,00	f/4.5-5.6	$1,266.00
+Canon EF 70-300mm f/4-5.6L IS USM UD	70,00	300,00	f/4-5.6L	$1,466.69
+Canon EF 70-200mm f/2.8L USM	70,00	200,00	f/2.8L	$1,349.00
+Canon EF 70-200mm f/4.0L IS USM	70,00	200,00	f/4L	$1,249.00
+Canon EF 70-200mm f/2.8L IS USM	70,00	200,00	f/2.8L	$2,545.89, Discontinued
+Tamron SP 70-200mm F/2.8 Di LD [IF] MACRO	70,00	200,00	f/2.8	$769.00
+Sigma 70-300mm f/4-5.6 DG OS	70,00	300,00	f/4-5.6	Too low to display
+Sigma 70-300mm f/4-5.6 APO DG Macro	70,00	300,00	f/4-5.6	Too low to display
+Sigma 70-200mm f/2.8 EX DG APO Macro HSM II	70,00	200,00	f/2.8	$1,249.00
+Tamron SP 70-300mm F/4-5.6 Di VC USD	70,00	300,00	f/4-5.6	$449.00
+Sigma 70mm f/2.8 EX DG Macro (prime)	70,00	70,00	f/2.8	$499.00
+Canon EF 70-200mm f/4.0L USM	70,00	200,00	f/4L	$709.00
+Canon EF 75-300mm f/4.0-5.6 III	75,00	300,00	f/4-5.6	Too low to display
+Canon EF 75-300mm f/4.0-5.6 III USM	75,00	300,00	f/4-5.6	$184.69
+Canon EF 75-300mm f/4.0-5.6 IS USM	75,00	300,00	f/4-5.6	$140.00, Discontinued
+Tokina AT-X 80-400mm f/4.5-5.6	80,00	400,00	f/4.5-5.6	$649.00
+Sigma 85mm f/1.4 EX DG HSM (prime)	85,00	85,00	f/1.4	$969.00
+Canon EF 85mm f1.2L USM II	85,00	85,00	f/1.2L	$1,998.90
+Canon EF 85mm f/1.8 USM (prime)	85,00	85,00	f/1.8	$389.00
+Tamron SP 90mm f/2.8 Di MACRO 1:1 VC USD	90,00	90,00	f/2.8	New Lens, Price Not Available
+Tamron SP 90mm F/2.8 Di MACRO 1:1 (prime)	90,00	90,00	f/2.8	$499.00
+Canon TS-E 90mm f/2.8 Tilt-Shift (prime)	90,00	90,00	f/2.8	$1,299.00
+Sigma 100-300mm f/4 EX DG APO HSM	100,00	300,00	f/4	$1,379.00
+Tokina AT-X 100mm f/2.8 Macro (prime)	100,00	100,00	f/2.8	$489.00
+Canon EF 100mm f/2.8L IS Macro USM (prime)	100,00	100,00	f/2.8	$979.00
+Canon EF 100-400mm f/4.5-5.6L IS USM	100,00	400,00	f/4.5-5.6L	$1,589.00
+Canon EF 100mm f/2.8 USM Macro (prime)	100,00	100,00	f/2.8	$559.00
+Canon EF 100mm f/2.0 USM (prime)	100,00	100,00	f/2.0	$464.00
+Sigma 105mm f/2.8 EX DG OS HSM Macro (prime)	105,00	105,00	f/2.8	$769.00
+Sigma 120-300mm f/2.8 DG OS HSM (S series)	120,00	300,00	f/2.8	New Lens, Price Not Available
+Sigma 120-300mm f/2.8 EX DG APO HSM	120,00	300,00	f/2.8	$2,999.00
+Sigma 120-300mm f/2.8 EX DG OS APO HSM	120,00	300,00	f/2.8	$3,199.00
+Sigma 120-400mm f/4.5-5.6 DG APO OS HSM	120,00	400,00	f/4.5-5.6	$899.00
+Canon EF 135mm f/2.8 Soft Focus (prime)	135,00	135,00	f/2.8	$520.27
+Canon EF 135mm f/2.0L USM (prime)	135,00	135,00	f/2.0L	$1,089.00
+Sigma 150-500mm f/5-6.3 APO DG OS HSM	150,00	500,00	f/5-6.3	Too low to display
+Sigma 150mm f/2.8 EX APO DG HSM Macro	150,00	150,00	f/2.8	Price Not Found
+Sigma 150mm f/2.8 EX DG OS HSM APO Macro (prime)	150,00	150,00	f/2.8	$1,099.00
+Canon EF 180mm f/3.5L Macro USM (prime)	180,00	180,00	f/3.5L	$1,469.00
+Tamron SP 180mm F/3.5 Di LD [IF] MACRO 1:1 (prime)	180,00	180,00	f/3.5	$739.00
+Canon EF 200mm f/2.8L II USM (prime)	200,00	200,00	f/2.8L	$789.00
+Sigma 200-500mm f/2.8 APO EX DG	200,00	500,00	f/2.8	$25,999.00
+Tamron SP 200-500mm F/5-6.3 Di LD [IF]	200,00	500,00	f/5-6.3	$949.00
+Canon EF 200mm f/2.0L IS USM (prime)	200,00	200,00	f/2.0L	$5,999.00
+Canon EF 300mm f/2.8L IS USM II	300,00	300,00	f/2.8L	$7,249.00
+Canon EF 300mm f/4.0L IS USM	300,00	300,00	f/4.0L	$1,359.00
+Canon EF 300mm f/2.8L IS USM (prime)	300,00	300,00	f/2.8L	$7,999.00
+Sigma 300-800mm f/5.6 EX DG APO HSM	300,00	800,00	f/5.6	$7,999.00
+Sigma 300mm f/2.8 EX APO DG HSM (prime)	300,00	300,00	f/2.8	$3,399.00
+Canon EF 400mm f/2.8L IS USM	400,00	400,00	f/2.8L	Price Not Found
+Canon EF 400mm f/5.6L USM	400,00	400,00	f/5.6L	$1,339.00
+Canon EF 400mm f/4.0 DO IS USM	400,00	400,00	f/4L	$5,967.77
+Canon EF 500mm f/4.0L IS USM	500,00	500,00	f/4L	$6,499.00
+Sigma 500mm f/4.5 EX DG APO HSM (prime)	500,00	500,00	f/4.5	Price Not Found
+Canon EF 600mm f/4.0L IS II USM	600,00	600,00	f/4L	$12,999.00
+Canon EF 600mm f/4.0L IS USM	600,00	600,00	f/4L	Price Not Found
+Sigma 800mm f/5.6 EX APO DG HSM (prime)	800,00	800,00	f/5.6	$6,599.00
+Canon EF 800mm f/5.6L IS USM (prime)	800,00	800,00	f/5.6L	$13,299.00

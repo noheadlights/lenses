@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121107162331) do
+ActiveRecord::Schema.define(:version => 20121115155734) do
 
   create_table "brands", :force => true do |t|
     t.string   "name"
@@ -29,8 +29,8 @@ ActiveRecord::Schema.define(:version => 20121107162331) do
     t.integer  "brand_id"
     t.float    "max_aperture"
     t.float    "min_aperture"
-    t.integer  "max_focal_length"
-    t.integer  "min_focal_length"
+    t.float    "max_focal_length"
+    t.float    "min_focal_length"
     t.string   "name"
     t.string   "notes"
     t.string   "lense_type_id"
