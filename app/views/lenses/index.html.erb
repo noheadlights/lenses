@@ -14,16 +14,14 @@
   <thead>
   <tr>
     <th>Brand</th>
+    <th>Name</th>
     <th>Max aperture</th>
     <th>Min aperture</th>
     <th>Max focal length</th>
     <th>Min focal length</th>
-    <th>Name</th>
     <th>Notes</th>
     <th>Lense type</th>
-    <th></th>
-    <th></th>
-    <th></th>
+
   </tr>
   </thead>
   <tbody>
@@ -31,16 +29,17 @@
 
       <tr onclick='document.location.href="<%= url_for(lense)%>"' style="cursor: pointer;">
         <td><%= lense.brand.name %></td>
+        <td><%= lense.name %></td>
         <td><%= lense.max_aperture %></td>
         <td><%= lense.min_aperture %></td>
         <td><%= lense.max_focal_length %></td>
         <td><%= lense.min_focal_length %></td>
-        <td><%= lense.name %></td>
         <td><%= lense.notes %></td>
         <td><%= lense.lense_type.lense_type %></td>
-        <td><%= link_to 'Show', lense %></td>
-        <td><%= link_to 'Edit', edit_lense_path(lense) if user_signed_in? %></td>
-        <td><%= link_to 'Destroy', lense, method: :delete, data: {confirm: 'Are you sure?'} if user_signed_in? %></td>
+        <% if user_signed_in? %>
+        <td><%= link_to 'Edit', edit_lense_path(lense) %></td>
+        <td><%= link_to 'Destroy', lense, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+        <% end %>
       </tr>
   <% end %>
   </tbody>
